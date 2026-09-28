@@ -3,7 +3,7 @@ id: T005
 title: Datasolvr-test - rigtige credentials og rettigheder
 customer: AP
 priority: 🔴
-status: wip
+status: waiting
 due: 2026-09-30
 effort:
 source: AstridSby (GitHub issue)
@@ -33,6 +33,7 @@ Field values from GitHub: Priority `should-have`, Stage `In Progress`.
 ## Log
 
 - 2026-09-28: Task created from GitHub issue #143, assigned to larsroholm.
+- 2026-09-28: Waiting on AP Pension IT, same as T006.
 
 ## Links
 
