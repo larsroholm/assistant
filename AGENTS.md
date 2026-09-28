@@ -9,13 +9,19 @@ single source of truth for what active work exists.
   move to `archive.md` — they never stay in `todo.md`.
 - Every line starts with a customer prefix: `[Customer]`. Use `[Internal]`
   for internal work. Never omit it.
-- Keep `todo.md`/`archive.md` lines terse: checkbox, `[Customer]`, title,
-  optional ` → tasks/T###-slug.md` link. No other metadata on the line.
+- Every task gets a `T###` id, shown on the line right after the customer
+  prefix: `[Customer] T###: Title`, optionally followed by
+  ` → tasks/T###-slug.md`. This applies even to bare one-off tasks with no
+  detail doc — every task in `todo.md`/`archive.md` is referable by id.
+- Keep `todo.md`/`archive.md` lines terse: `[Customer]`, `T###:`,
+  title, optional ` → tasks/T###-slug.md` link. No checkboxes, no other
+  metadata on the line.
 - Only create a `tasks/T###-slug.md` detail doc when there is real detail,
   a due date, or a status worth tracking. A quick one-off task can stay a
-  bare line with no detail doc and no ID.
-- IDs are `T###`, derived from existing filenames in `tasks/`. New ID =
-  highest existing number + 1. Never renumber or reuse an ID.
+  bare line with no detail doc, but still gets a `T###` id.
+- IDs are `T###`, derived from the highest existing id in use across both
+  `todo.md`/`archive.md` lines and `tasks/` filenames. New ID = highest
+  existing number + 1. Never renumber or reuse an ID.
 - When a detail doc exists, its frontmatter `title` and `customer` must
   match the todo/archive line exactly. Update both together.
 - `todo.md` is grouped by priority section: `## 🔴`, `## 🟡`, `## 🟢`,
@@ -28,8 +34,8 @@ single source of truth for what active work exists.
 
 ## Completing a task
 
-1. Check the box (`[x]`) and move the line from `todo.md` to the correct
-   `## YYYY-MM` section of `archive.md` (create the section if needed).
+1. Move the line from `todo.md` to the correct `## YYYY-MM` section of
+   `archive.md` (create the section if needed).
 2. If a detail doc exists, set `status: done` and `completed: YYYY-MM-DD`
    in its frontmatter, and append a closing note to `## Log`.
 
