@@ -3,6 +3,8 @@
 ## 🔴
 <!-- [Acme] T042: Fix batch scheduler drift → tasks/T042-scheduler-drift.md -->
 - [P+] T003: Check P+ mailserver
+- [AP] T005: Datasolvr-test - rigtige credentials og rettigheder → tasks/T005-ap-test-credentials.md
+- [AP] T006: Nye rettigheder → tasks/T006-ap-new-rights.md
 
 ## 🟡
 - [Internal] T001: Create roadmap for Datasolvr platform → tasks/T001-datasolvr-roadmap.md
