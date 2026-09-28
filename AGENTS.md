@@ -10,12 +10,14 @@ single source of truth for what active work exists.
 - Every line starts with a customer prefix: `[Customer]`. Use `[Internal]`
   for internal work. Never omit it.
 - Every task gets a `T###` id, shown on the line right after the customer
-  prefix: `[Customer] T###: Title`, optionally followed by
-  ` → tasks/T###-slug.md`. This applies even to bare one-off tasks with no
-  detail doc — every task in `todo.md`/`archive.md` is referable by id.
-- Keep `todo.md`/`archive.md` lines terse: `[Customer]`, `T###:`,
-  title, optional ` → tasks/T###-slug.md` link. No checkboxes, no other
-  metadata on the line.
+  prefix: `[Customer] T###: Title`. This applies even to bare one-off tasks
+  with no detail doc — every task in `todo.md`/`archive.md` is referable by
+  id.
+- Keep `todo.md`/`archive.md` lines terse: `[Customer]`, `T###:`, title,
+  optional ` → <github issue URL>` when the task originates from or maps
+  to a GitHub issue. No checkboxes, no `tasks/` doc links, no other
+  metadata on the line — detail docs are referenced by id (`T###`) only,
+  not linked from `todo.md`.
 - Only create a `tasks/T###-slug.md` detail doc when there is real detail,
   a due date, or a status worth tracking. A quick one-off task can stay a
   bare line with no detail doc, but still gets a `T###` id.
@@ -38,6 +40,16 @@ single source of truth for what active work exists.
    `archive.md` (create the section if needed).
 2. If a detail doc exists, set `status: done` and `completed: YYYY-MM-DD`
    in its frontmatter, and append a closing note to `## Log`.
+3. If the task's line carries a GitHub issue link, ask whether the
+   corresponding issue should be closed, and close it if confirmed.
+
+## GitHub issue sync
+
+- On request, check all GitHub issues assigned to the user across
+  accessible repos against current `todo.md` entries (matched by issue
+  URL), and report any assigned issues with no corresponding TODO.
+- Ask before adding a TODO for each missing issue found this way — do not
+  add them automatically.
 
 ## Adding or changing a task
 
