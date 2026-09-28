@@ -3,7 +3,7 @@ id: T006
 title: Nye rettigheder
 customer: AP
 priority: 🔴
-status: wip
+status: waiting
 due: 2026-10-02
 effort:
 source: AstridSby (GitHub issue)
@@ -35,6 +35,8 @@ Field values from GitHub: Priority `must-have`, Stage `In Progress`.
 ## Log
 
 - 2026-09-28: Task created from GitHub issue #152, assigned to larsroholm.
+- 2026-09-28: Sent updated roles to AP Pension IT. Waiting on them to
+  apply the rights.
 
 ## Links
 
