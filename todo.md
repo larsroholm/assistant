@@ -1,7 +1,6 @@
 # Todo
 
 ## 🔴
-<!-- [Acme] T042: Fix batch scheduler drift -->
 - [P+] T003: Check P+ mailserver
 - [AP] T005: Datasolvr-test - rigtige credentials og rettigheder → https://github.com/datasolvr/appension/issues/143
 - [AP] T006: Nye rettigheder → https://github.com/datasolvr/appension/issues/152
