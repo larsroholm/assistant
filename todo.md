@@ -1,14 +1,14 @@
 # Todo
 
 ## 🔴
-<!-- [Acme] T042: Fix batch scheduler drift → tasks/T042-scheduler-drift.md -->
+<!-- [Acme] T042: Fix batch scheduler drift -->
 - [P+] T003: Check P+ mailserver
-- [AP] T005: Datasolvr-test - rigtige credentials og rettigheder → tasks/T005-ap-test-credentials.md
-- [AP] T006: Nye rettigheder → tasks/T006-ap-new-rights.md
+- [AP] T005: Datasolvr-test - rigtige credentials og rettigheder → https://github.com/datasolvr/appension/issues/143
+- [AP] T006: Nye rettigheder → https://github.com/datasolvr/appension/issues/152
 
 ## 🟡
-- [Internal] T001: Create roadmap for Datasolvr platform → tasks/T001-datasolvr-roadmap.md
-- [Internal] T002: Dev 101 course → tasks/T002-dev-101-course.md
+- [Internal] T001: Create roadmap for Datasolvr platform
+- [Internal] T002: Dev 101 course
 - [Internal] T004: Add standalone dev AI page to wiki
 
 ## 🟢
