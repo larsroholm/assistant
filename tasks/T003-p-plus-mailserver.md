@@ -3,12 +3,12 @@ id: T003
 title: Check P+ mailserver
 customer: P+
 priority: 🔴
-status: waiting
+status: done
 due:
 effort:
 source: Lars
 created: 2026-09-28
-completed:
+completed: 2026-10-02
 ---
 
 ## Context
@@ -25,5 +25,6 @@ side to proceed.
 - 2026-09-28: Task created.
 - 2026-09-28: P+ IT asked which mailserver we use; answered them. Waiting
   on P+ IT.
+- 2026-10-02: Marked done for now.
 
 ## Links

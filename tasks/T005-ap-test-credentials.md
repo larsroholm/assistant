@@ -3,12 +3,12 @@ id: T005
 title: Datasolvr-test - rigtige credentials og rettigheder
 customer: AP
 priority: 🔴
-status: waiting
+status: done
 due: 2026-09-30
 effort:
 source: AstridSby (GitHub issue)
 created: 2026-09-28
-completed:
+completed: 2026-10-02
 ---
 
 ## Context
@@ -34,6 +34,7 @@ Field values from GitHub: Priority `should-have`, Stage `In Progress`.
 
 - 2026-09-28: Task created from GitHub issue #143, assigned to larsroholm.
 - 2026-09-28: Waiting on AP Pension IT, same as T006.
+- 2026-10-02: Marked done for now.
 
 ## Links
 
