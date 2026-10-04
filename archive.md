@@ -1,6 +1,7 @@
 # Archive
 
 ## 2026-10
+- [Internal] T039: Enable DNSSEC for datasolvr.com in Route 53 and add DS records at one.com
 - [Internal] T040: ISAE3402 audit evidence in place by Monday
 - [AP] T006: Nye rettigheder → https://github.com/datasolvr/appension/issues/152
 - [AP] T005: Datasolvr-test - rigtige credentials og rettigheder → https://github.com/datasolvr/appension/issues/143
