@@ -1,7 +1,6 @@
 # Todo
 
 ## 🔴
-- [Internal] T040: ISAE3402 audit evidence in place by Monday
 - [Sampension] T007: Opgradering af Datasolvr-platformen senest start nov → https://github.com/datasolvr/sampension/issues/160
 
 ## 🟡
