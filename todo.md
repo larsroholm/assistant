@@ -1,6 +1,7 @@
 # Todo
 
 ## 🔴
+- [AP] T041: Run deploy pipelines on all AP environments
 - [Sampension] T007: Opgradering af Datasolvr-platformen senest start nov → https://github.com/datasolvr/sampension/issues/160
 
 ## 🟡
