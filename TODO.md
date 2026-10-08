@@ -13,6 +13,5 @@
 - [Internal] T004: Add standalone dev AI page to wiki
 
 ## 🟢
-- [Internal] T042: Ask Alberte if her Compliance skill should be added to skills repo
 
 ## Someday
