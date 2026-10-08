@@ -6,15 +6,15 @@ over time (notes, journals, references).
 
 ## File map
 
-- `todo.md` — active tasks, grouped by priority.
-- `archive.md` — completed/cancelled tasks, grouped by completion month.
+- `TODO.md` — active tasks, grouped by priority.
+- `ARCHIVE.md` — completed/cancelled tasks, grouped by completion month.
 - `tasks/` — detail docs for tasks that need more than a one-liner.
 - `notes/` — placeholder for future non-task content.
 - `AGENTS.md` — rules for how the agent should read and update all of the above.
 
 ## Task line format
 
-Every task is one line in `todo.md` or `archive.md`:
+Every task is one line in `TODO.md` or `ARCHIVE.md`:
 
 ```
 - [ ] [Customer] Title → tasks/T042-slug.md

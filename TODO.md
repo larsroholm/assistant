@@ -1,4 +1,4 @@
-# Todo
+# TODO
 
 ## 🔴
 - [Sampension] T007: Opgradering af Datasolvr-platformen senest start nov → https://github.com/datasolvr/sampension/issues/160
