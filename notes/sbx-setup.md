@@ -30,7 +30,7 @@ Notes on running coding agents in Docker Sandboxes (`sbx`) on this machine. Writ
 
 - Host store: `C:\Users\lars\AppData\Local\DockerSandboxes\sandboxes\state\agent-skills`. List with `sbx skills ls`.
 - The store is mounted read-only at `~/.agents/skills` in the sandbox, which pi reads. Use `--skills readwrite` or `--skills off` when creating a sandbox to change that.
-- Remaining skills: `grill-me`, `datasolvr-api`, `datasolvr-cli`, `datasolvr-config`.
+- Skills in the store: `grill-me`, `datasolvr-api`, `datasolvr-cli`, `datasolvr-config`. Lars added these himself.
 - On 2026-10-18 the other 37 skills, mostly from Matt Pocock's repo (https://github.com/mattpocock/skills), were removed with `sbx skills rm --force`.
 - To add skills from a repository: `sbx skills add <git url>`. Superpowers is at https://github.com/obra/superpowers.
 - Skills in `C:\Users\lars\.agents\skills` (the AWS skills) are a separate folder and are not part of the sbx store.
