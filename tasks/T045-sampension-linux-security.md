@@ -33,6 +33,7 @@ milestone `Support`.
 - 2026-10-08: Task created from GitHub issue #165, assigned to larsroholm.
   Scope clarified by Lars (the issue itself has no description).
 - 2026-10-20: Started work.
+- 2026-10-20: Steps 1-3 done (user created, audit logs checked, unused users deleted). Step 4 (Ubuntu upgrade) blocked on T044 (new test server).
 
 ## Links
 
