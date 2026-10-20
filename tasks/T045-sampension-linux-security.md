@@ -3,7 +3,7 @@ id: T045
 title: Forbedringer af sikkerheden omkring Linux servere
 customer: Sampension
 priority: 🔴
-status: todo
+status: wip
 due:
 effort:
 source: BettinaLauritsen (GitHub issue)
@@ -32,6 +32,7 @@ milestone `Support`.
 
 - 2026-10-08: Task created from GitHub issue #165, assigned to larsroholm.
   Scope clarified by Lars (the issue itself has no description).
+- 2026-10-20: Started work.
 
 ## Links
 
