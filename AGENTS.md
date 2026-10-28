@@ -5,6 +5,9 @@ single source of truth for what active work exists.
 
 ## Reply format
 
+When talking about todos, always follow the rules below. For other topics,
+these rules do not apply.
+
 - End every reply with a list of the current todos, under a `# TODO` header,
   read fresh from
   `TODO.md` (never from memory), after any edits made in that turn.
